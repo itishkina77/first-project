@@ -17,7 +17,7 @@
 
 * Привязать удалённый репозиторий к локальному — __git remote add__  
   Пример: 
-  > $ git remote add origin git@github.com:%ИМЯ_АККАУНТА%/first-project.git
+  > $ git remote add origin git@github.com:%ИМЯ_АККАУНТА%/first-project.git  
   Команде необходимо передать два параметра: имя удалённого репозитория и его URL. 
   В качестве имени в примере слово origin. А URL скопирован со страницы удалённого репозитория.
 
