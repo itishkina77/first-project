@@ -65,7 +65,7 @@ __Tracked__: файлы, отслеживаемые Git, включая фикс
 graph LR;
   untracked -- "git add"    --> staged;
   staged    -- "git commit" --> tracked/comitted;  
-  tracked   -- "Изменения"  --> modified;
+  tracked/comitted   -- "Изменения"  --> modified;
   modified  -- "git add"    --> staged;
 ```
 
